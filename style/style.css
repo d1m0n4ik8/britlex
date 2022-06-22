@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+body {
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+}
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+/*Header*/
+.header {
+   background-color: #fff;
+}
+.navbar-brand {
+   font-size: 36px;
+   color: #000;
+}
+.navbar-brand p {
+   color: #8f95a5;
+}
+.navbar .nav-item .nav-link {
+   font-weight: 500;
+   font-size: 20px;
+   color: #263238;
+   padding: 10px 15px;
+}
+.header__button a {
+   font-size: 24px;
+   color: #000;
+   padding: 15px 45px;
+   border: 2px solid #263238;
+   border-radius: 5px;
+}
+
+/*Header end*/
+
+/*Main*/
+.title-text {
+   font-weight: 600;
+   font-size: 64px;
+   margin-bottom: 40px;
+}
+.title-img {
+   width: 120px;
+   height: 120px;
+   left: 80%;
+   top: 45%;
+}
+.intro-text {
+   margin-bottom: 80px;
+   font-size: 24px;
+   color: #8f95a5;
+}
+
+.intro-btn a {
+   font-size: 36px;
+   padding: 20px 60px;
+   background: #263238;
+   border-radius: 15px;
+}
+.intro-btn {
+   box-sizing: border-box;
+}
+.intro-img {
+   max-width: 660px;
+   max-height: 660px;
+}
+.gap {
+   height: 80px;
+}
+.page-title h1 {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 150px;
+   padding: 20px 0;
+}
+/*Card*/
+.skills-card {
+   background: #f5f5f5;
+   border-radius: 10px;
+   height: 100%;
+}
+.skills-card .card-body .card-title {
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 70px;
+   color: #263238;
+}
+.skills-card .card-body .card-text {
+   font-size: 16px;
+   color: #8f95a5;
+}
+.card-btn .card-link {
+   padding: 16px 60px;
+   background: #263238;
+   border-radius: 5px;
+}
+.card-btn {
+   margin: 60px 0 20px 0;
+}
+.speaking-img {
+   max-width: 390px;
+   max-height: 390px;
+}
+.writing-img {
+   max-width: 247px;
+   max-height: 247px;
+}
+.reading-img {
+   max-width: 371px;
+   max-height: 247px;
+}
+
+/*About us*/
+.about-title,
+.contacts-title {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 80px;
+   color: #000;
+}
+.about-text,
+.contacts-text {
+   font-size: 20px;
+   color: #8f95a5;
+}
+.about-img {
+   max-width: 500px;
+   max-height: 500px;
+}
+.number {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 80px;
+   color: #2a3246;
+}
+.price {
+   font-size: 30px;
+   color: #263238;
+}
+.term {
+   font-size: 18px;
+   color: #546269;
+}
+.card-price {
+   max-width: 100%;
+   width: 250px;
+   background: #eeeeee;
+   border-radius: 5px;
+}
+.pricing-card-img {
+   max-height: 100%;
+   height: 300px;
+   overflow: hidden;
+}
+.pricing-img {
+   height: 100%;
+   width: auto;
+}
+
+.pricing-card .card-body .card-discription .card-title {
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 48px;
+   color: #263238;
+}
+.pricing-card .card-body .card-discription .card-text {
+   font-size: 20px;
+   color: #8f95a5;
+}
+/*Contacts*/
+.contact-img {
+   max-height: 430px;
+}
+.email-input {
+   padding: 20px;
+   border: 1px solid #8f95a5;
+   border-radius: 10px;
+}
+.contacts-button {
+   background: #263238;
+   border-radius: 10px;
+   padding: 20px;
+   margin-left: 20px;
+}
+/*Main end*/
+
+/*Footer*/
+.footer .container {
+   padding: 25px 0;
+   position: relative;
+}
+.footer .container::before {
+   position: absolute;
+   top: 0;
+   content: '';
+   width: 100%;
+   height: 1px;
+   background: #c4c4c4;
+}
+.footer-text {
+   font-size: 24px;
+   color: #8f95a5;
+}
+
+@media (max-width: 992px) {
+   .navbar-brand {
+      font-size: 30px;
+   }
+   .navbar .nav-item .nav-link {
+      font-size: 16px;
+   }
+   .header__button a {
+      font-size: 18px;
+      padding: 10px 40px;
+   }
+   .title-text {
+      font-size: 48px;
+      line-height: 64px;
+   }
+   .title-img {
+      width: 100px;
+      height: 100px;
+   }
+   .intro-text {
+      font-size: 20px;
+   }
+   .page-title h1 {
+      font-size: 36px;
+      line-height: 80px;
+   }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
