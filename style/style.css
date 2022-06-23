@@ -62,9 +62,7 @@ img {
    background: #263238;
    border-radius: 15px;
 }
-.intro-btn {
-   box-sizing: border-box;
-}
+
 .intro-img {
    max-width: 660px;
    max-height: 660px;
@@ -75,8 +73,8 @@ img {
 .page-title h1 {
    font-weight: 600;
    font-size: 48px;
-   line-height: 150px;
-   padding: 20px 0;
+   line-height: 80px;
+   padding: 50px 0;
 }
 /*Card*/
 .skills-card {
@@ -88,6 +86,7 @@ img {
    font-weight: 600;
    font-size: 30px;
    line-height: 70px;
+   margin: 0;
    color: #263238;
 }
 .skills-card .card-body .card-text {
@@ -95,12 +94,13 @@ img {
    color: #8f95a5;
 }
 .card-btn .card-link {
-   padding: 16px 60px;
+   padding: 16px 40px;
    background: #263238;
    border-radius: 5px;
+   font-size: 18px;
 }
 .card-btn {
-   margin: 60px 0 20px 0;
+   margin: 30px 0;
 }
 .speaking-img {
    max-width: 390px;
@@ -113,6 +113,9 @@ img {
 .reading-img {
    max-width: 371px;
    max-height: 247px;
+}
+.listening-img {
+   max-width: 100%;
 }
 
 /*About us*/
@@ -229,9 +232,44 @@ img {
    .intro-text {
       font-size: 20px;
    }
+   .intro-btn a {
+      font-size: 24px;
+      padding: 15px 45px;
+   }
    .page-title h1 {
       font-size: 36px;
-      line-height: 80px;
+   }
+   .skills-card .card-body .card-title {
+      font-size: 22px;
+   }
+   .skills-card .card-body .card-text {
+      font-size: 14px;
+   }
+   .card-btn .card-link {
+      padding: 16px 30px;
+   }
+   .card-btn {
+      margin: 25px 0;
+   }
+   .about-title,
+   .contacts-title {
+      font-size: 36px;
+   }
+   .about-text,
+   .contacts-text {
+      font-size: 16px;
+      line-height: 24px;
+   }
+   .number {
+      font-size: 30px;
+   }
+
+   .pricing-card .card-body .card-discription .card-title {
+      font-size: 30px;
+      line-height: 48px;
+   }
+   .pricing-card .card-body .card-discription .card-text {
+      font-size: 20px;
    }
 }
 @media (max-width: 768px) {
